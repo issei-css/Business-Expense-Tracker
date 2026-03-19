@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+html.dark body {
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+html.dark .bg-gray-50 {
+  background-color: #0f172a !important;
+}
+
+html.dark .bg-white {
+  background-color: #111827 !important;
+}
+
+html.dark .bg-green-50 {
+  background-color: #052e16 !important;
+}
+
+html.dark .bg-blue-50 {
+  background-color: #172554 !important;
+}
+
+html.dark .bg-purple-50 {
+  background-color: #3b0764 !important;
+}
+
+html.dark .bg-gray-100 {
+  background-color: #1f2937 !important;
+}
+
+html.dark .border,
+html.dark .border-b,
+html.dark .border-t,
+html.dark .border-green-200,
+html.dark .border-blue-200,
+html.dark .border-purple-200 {
+  border-color: #334155 !important;
+}
+
+html.dark .text-gray-800 {
+  color: #f8fafc !important;
+}
+
+html.dark .text-gray-700 {
+  color: #e2e8f0 !important;
+}
+
+html.dark .text-gray-600,
+html.dark .text-gray-500,
+html.dark .text-gray-400,
+html.dark .text-gray-300 {
+  color: #94a3b8 !important;
+}
+
+html.dark input,
+html.dark select,
+html.dark textarea {
+  background-color: #0b1220;
+  color: #e2e8f0;
+  border-color: #334155;
+}
+
+html.dark input::placeholder,
+html.dark textarea::placeholder {
+  color: #64748b;
+}
+
+html.dark .hover\:bg-gray-50:hover {
+  background-color: #1f2937 !important;
+}
+
+html.dark .text-green-700 {
+  color: #86efac !important;
+}
+
+html.dark .text-blue-700 {
+  color: #93c5fd !important;
+}
+
+html.dark .text-purple-700 {
+  color: #d8b4fe !important;
+}
+
+html.dark .shadow-sm,
+html.dark .shadow-md {
+  box-shadow: none;
+}
